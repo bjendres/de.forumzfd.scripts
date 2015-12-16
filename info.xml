@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="de.forumzfd.scripts" type="module">
+  <file>scripts</file>
+  <name>forumzfd-scripts</name>
+  <description>apicall to sync drupal-pictures to civicrm</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Thomas Leichtfuss</author>
+    <email>leichtfuss@systopia.de</email>
+  </maintainer>
+  <releaseDate>2015-12-11</releaseDate>
+  <version>0.1</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments>For now this extension defines only one apicall: ForumzfdScripts.syncpictures</comments>
+  <civix>
+    <namespace>CRM/Scripts</namespace>
+  </civix>
+</extension>
